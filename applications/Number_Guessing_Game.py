@@ -4,7 +4,7 @@ def guessing_game(n):
         a=int(input("Enter your number: "))
         if n==a:
             print("Your guess is correct!")
-            rets=True
+            res=True
             break
         elif n>a:
             print("Req no is greater than your input")
@@ -13,7 +13,7 @@ def guessing_game(n):
             print("Req no is smaller than your input")
             res=False
     return res
-n=randint(1,1000+1)
+n=randint(1,10)
 if guessing_game(n):
     print("You WON the game!")
 else:
