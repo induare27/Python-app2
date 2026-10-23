@@ -24,7 +24,7 @@ def expense_tracker(budget):
                 balance_amount=budget-total_amount
                 print("Balance amount is:", balance_amount)
         elif choice==4:
-            return False
+            break
         else:
             print("Enter a valid choice")
 expense_tracker(budget)
